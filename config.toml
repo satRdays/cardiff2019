@@ -17,8 +17,8 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "satRday [My City]"
-  description = "R conference in [My City]"
+  name = "satRday Cardiff"
+  description = "R conference in Cardiff"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
@@ -77,8 +77,8 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "satRday [My City]"
-    subtitle = "A conference for users of the R Language on [Conference Date]"
+    title = "satRday Cardiff"
+    subtitle = "A conference for users of the R Language on 27th April 2019"
     bg = true
     buttonText = "Tell me more"
 
@@ -94,7 +94,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-clock-o"
       title = "Details"
-      description = "[Conference Date] at [Conference Location]"
+      description = "27th April at Cardiff University"
       url = "#"
 
     [[params.services.row.list]]
@@ -130,7 +130,7 @@ googleAnalytics = ""
   # Register section
   # You only need ONE of these active
   [params.tito]
-    enable = true
+    enable = false
     title = "Register"
     bg = true
     accountevent = "ultimateconf/2013"
@@ -138,7 +138,7 @@ googleAnalytics = ""
       # include botht the account and event in a string, seperated by /, with no spaces
 
   [params.eventbrite]
-    enable = true
+    enable = false
     title = "Register"
     bg = true
     eid = "32416000129" 
@@ -148,7 +148,7 @@ googleAnalytics = ""
       # Supply this string as the value to `eid` above
 
   [params.tickettailor]
-    enable = true
+    enable = false
     title = "Register"
     bg = true
     eventviewid = "162430"
@@ -158,7 +158,7 @@ googleAnalytics = ""
   
   # Call for papers section
   [params.callforpapers]
-    enable = true
+    enable = false
     title = "Call For Papers"
     bg = false
     CfSpage = "/test3490"
@@ -167,7 +167,7 @@ googleAnalytics = ""
 
   # Talk [Portfolio] section
   [params.portfolio]
-    enable = true
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
@@ -184,13 +184,13 @@ googleAnalytics = ""
 
   # Schedule section
   [params.schedule]
-    enable = true
+    enable = false
     title = "Schedule"
     bg = false
 
   # Important Dates [About] section
   [params.about]
-    enable = true
+    enable = false
     title = "Important Dates"
     subtitle = "Be prepared!"
     endpoint = "Conference"
@@ -231,7 +231,7 @@ googleAnalytics = ""
 
   # Team section
   [params.team]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     title = "Team"
@@ -286,7 +286,7 @@ googleAnalytics = ""
 
   # Client section
   [params.clients_list]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     # Optional client title specifying the involvement
@@ -315,7 +315,7 @@ googleAnalytics = ""
   [params.diversity]
     enable = true
     title = "Diversity"
-    bg = true
+    bg = false
 
   # Contact section
   [params.contact]
