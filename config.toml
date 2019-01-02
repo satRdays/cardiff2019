@@ -321,7 +321,7 @@ googleAnalytics = ""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = "Your message will be recieved by the local Cardiff team"
     buttonText = "Send message"
     # netlify = true
 
