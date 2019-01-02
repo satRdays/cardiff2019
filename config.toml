@@ -118,7 +118,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Affordable"
-      description = "Only [£30]"
+      description = "Less than a days wage"
       url = "#"
 
     [[params.services.row.list]]
