@@ -84,6 +84,7 @@ googleAnalytics = ""
 
 
   # About [Services] section
+  # FIXME: fa-icons don't seem to show on deployment
   [params.services]
     enable = true
     title = "About"
@@ -95,37 +96,37 @@ googleAnalytics = ""
       icon = "fa-clock-o"
       title = "Details"
       description = "16th November at Cardiff University"
-      url = "#"
+      url = ""
 
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "Hands on"
       description = "Practical applications and workshop sessions"
-      url = "#"
+      url = ""
 
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
       title = "Learning"
       description = "Gain knowledge from your peers and experienced professionals"
-      url = "#"
+      url = ""
 
     [[params.services.row.list]]
       icon = "fa-users"
       title = "Community Lead"
       description = "Community organised, community focussed"
-      url = "#"
+      url = ""
 
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Affordable"
       description = "Less than a days wage"
-      url = "#"
+      url = ""
 
     [[params.services.row.list]]
       icon = "fa-universal-access"
       title = "Accessible"
       description = "Inclusive, supportive and respectful environment"
-      url = "#"
+      url = ""
 
   # Register section
   # You only need ONE of these active
