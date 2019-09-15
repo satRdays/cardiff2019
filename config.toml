@@ -4,6 +4,9 @@ languageCode = "en-us"
 title = "satRday"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
 
+# Disable taxonomies that are not used to suppress warnings https://discourse.gohugo.io/t/found-no-layout-for-taxonomyterm-language-en-output-format-html/16376
+disableKinds = ["taxonomyTerm"]
+
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 
