@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://satrdays-event-template.netlify.com/"
+baseurl = "https://cardiff2019.satrdays.org/"
 languageCode = "en-us"
 title = "satRday"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
@@ -162,12 +162,12 @@ googleAnalytics = ""
   
   # Call for papers section
   [params.callforpapers]
-    enable = false
+    enable = true
     title = "Call For Papers"
     bg = false
-    CfSpage = "/test3490"
+    CfSpage = "/cardiff-satrdays-2019"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
-    dates = "09 Aug - 21 Sep 2018"
+    dates = "25 September - 20 October"
 
   # Talk [Portfolio] section
   [params.portfolio]
