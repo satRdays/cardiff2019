@@ -229,10 +229,9 @@ googleAnalytics = ""
   # Location section
   [params.location]
     enable = true
-    title = "Location title"
+    title = "Hadyn Ellis Medical Research Facilitys"
     bg = true
-    iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9937.940844863255!2d-3.1814325!3d51.4859629!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa52f76b5c7623410!2sSchool+of+Social+Sciences%2C+Cardiff+University%2C+Glamorgan+Building!5e0!3m2!1sen!2suk!4v1546460431970"
-
+    iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9936.631018024384!2d-3.1836613!3d51.4919725!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf9c395adcc743dce!2sHadyn%20Ellis%20Medical%20Research%20Facility!5e0!3m2!1sen!2suk!4v1568539146159!5m2!1sen!2suk"
   # Team section
   [params.team]
     enable = false
