@@ -165,9 +165,9 @@ googleAnalytics = ""
     enable = true
     title = "Call For Papers"
     bg = false
-    CfSpage = "/cardiff-satrdays-2019"
+    CfSpage = "/cardiff-satrday-2019"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
-    dates = "25 September - 20 October"
+    dates = "1 October - 1 November"
 
   # Talk [Portfolio] section
   [params.portfolio]
