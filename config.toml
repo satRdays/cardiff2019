@@ -289,7 +289,7 @@ googleAnalytics = ""
 
   # Client section
   [params.clients_list]
-    enable = false
+    enable = true
     # Possibility to center items
     #center = true
     # Optional client title specifying the involvement
@@ -300,20 +300,20 @@ googleAnalytics = ""
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients]]
-      logo = "envato.jpg"
-      link = "#"
+      logo = "jr_logo.png"
+      link = "https://www.jumpingrivers.com"
 
-    [[params.clients]]
-      logo = "designmodo.jpg"
-      link = "#"
+    #[[params.clients]]
+    #  logo = "designmodo.jpg"
+    #  link = "#"
 
-    [[params.clients]]
-      logo = "themeforest.jpg"
-      link = "#"
+    #[[params.clients]]
+    #  logo = "themeforest.jpg"
+    #  link = "#"
 
-    [[params.clients]]
-      logo = "creative-market.jpg"
-      link = "#"
+    #[[params.clients]]
+    #  logo = "creative-market.jpg"
+    #  link = "#"
   
   [params.diversity]
     enable = true
