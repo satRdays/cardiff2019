@@ -134,10 +134,10 @@ googleAnalytics = ""
   # Register section
   # You only need ONE of these active
   [params.tito]
-    enable = false
+    enable = true
     title = "Register"
     bg = true
-    accountevent = "ultimateconf/2013"
+    accountevent = "satrday-cardiff/satrday-cardiff-2019"
       # Go to https://ti.to/ and find the account (under your user) and event pair string e.g. "cardiff-satrday/2018"
       # include botht the account and event in a string, seperated by /, with no spaces
 
