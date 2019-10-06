@@ -165,9 +165,9 @@ googleAnalytics = ""
     enable = true
     title = "Call For Papers"
     bg = false
-    CfSpage = "/test3490"
+    CfSpage = "/cardiff-satrday-2019"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
-    dates = "09 Aug - 21 Sep 2018"
+    dates = "1 October - 1 November"
 
 
   # Hackathon section
@@ -299,7 +299,7 @@ googleAnalytics = ""
 
   # Client section
   [params.clients_list]
-    enable = false
+    enable = true
     # Possibility to center items
     #center = true
     # Optional client title specifying the involvement
@@ -310,20 +310,20 @@ googleAnalytics = ""
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients]]
-      logo = "envato.jpg"
-      link = "#"
+      logo = "jr_logo.png"
+      link = "https://www.jumpingrivers.com"
 
-    [[params.clients]]
-      logo = "designmodo.jpg"
-      link = "#"
+    #[[params.clients]]
+    #  logo = "designmodo.jpg"
+    #  link = "#"
 
-    [[params.clients]]
-      logo = "themeforest.jpg"
-      link = "#"
+    #[[params.clients]]
+    #  logo = "themeforest.jpg"
+    #  link = "#"
 
-    [[params.clients]]
-      logo = "creative-market.jpg"
-      link = "#"
+    #[[params.clients]]
+    #  logo = "creative-market.jpg"
+    #  link = "#"
   
   [params.diversity]
     enable = true
