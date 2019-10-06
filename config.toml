@@ -248,7 +248,7 @@ googleAnalytics = ""
     # Possibility to center items
     #center = true
     title = "Team"
-    subtitle = "The people putting it together"
+    subtitle = "The people putting Cardiff satRday together"
     bg = false
     description = ""
     speakers = "Speakers"
@@ -258,19 +258,27 @@ googleAnalytics = ""
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 1"
-      position = "Organiser Position 1"
+      img = "sefaozalp.jpg"
+      name = "Sefa Ozalp"
+      position = "Co-Organiser"
       reportsTo = ""
-      livesIn = "[Munich, Germany](#some-maps-url)"
+      livesIn = "[Cardiff, UK](https://www.google.com/maps/place/Cardiff/data=!4m2!3m1!1s0x486e02d434ec53f5:0x143406db6586670e?sa=X&ved=2ahUKEwjcmcb7tojlAhUIEcAKHcSmBRYQ8gEwAHoECAoQAQ)"
       scope = [
-        "Role 1 for [thing 1](#)",
-        "Role 2 for [thing 2](#)",
-        "Role 3 for [thing 3](#)"
+        "Lead Data Science Researcher at [HateLab](https://hatelab.net/people/)",
+        "Research Assistant at [Social Data Science Lab](http://socialdatalab.net/)"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """I do things,
-      and stuff"""
+      bio = """I use R to wrangle big social media data and monitor/analyse cyber-hate speech."""
+      social = [
+        ["fa-twitter", "https://twitter.com/sefaozalp"],
+        ["fa-github", "https://github.com/sefabey"],
+        ["fa-linkedin", "https://www.linkedin.com/in/sefaozalp/"]
+      ]
+
+    [[params.team.members]]
+      img = "faceholder.png"
+      name = "Paul Brennan"
+      position = "Co-Organiser"
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
@@ -279,8 +287,8 @@ googleAnalytics = ""
 
     [[params.team.members]]
       img = "faceholder.png"
-      name = "Organiser Name 2"
-      position = "Organiser Position 2"
+      name = "Heather Turner"
+      position = "Co-Organiser"
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
@@ -289,13 +297,44 @@ googleAnalytics = ""
 
     [[params.team.members]]
       img = "faceholder.png"
-      name = "Organiser Name 3"
-      position = "Organiser Position 3"
+      name = "Dave Parr"
+      position = "Co-Organiser"
       social = [
         ["fa-twitter", "#"],
         ["fa-github", "#"],
         ["fa-linkedin", "#"]
       ]
+    
+      [[params.team.members]]
+      img = "faceholder.png"
+      name = "Dominik"
+      position = "Co-Organiser"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+      [[params.team.members]]
+      img = "faceholder.png"
+      name = "Mark"
+      position = "Co-Organiser"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+      [[params.team.members]]
+      img = "faceholder.png"
+      name = "Steph Locke"
+      position = "Co-Organiser"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-github", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+
 
   # Client section
   [params.clients_list]
