@@ -162,12 +162,22 @@ googleAnalytics = ""
   
   # Call for papers section
   [params.callforpapers]
-    enable = false
+    enable = true
     title = "Call For Papers"
     bg = false
     CfSpage = "/test3490"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
     dates = "09 Aug - 21 Sep 2018"
+
+
+  # Hackathon section
+  [params.hackathon]
+    enable = true
+    title = "Hackathon"
+    location= """Cardiff University Main Building Council Chamber (Room 1.77, 1st floor, Main Building, Park Place, CF10 3AT)"""
+    bg = false
+    dates = "15 November 2019"
+    times= "13:00-17:30"  
 
   # Talk [Portfolio] section
   [params.portfolio]
@@ -234,7 +244,7 @@ googleAnalytics = ""
     iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9936.631018024384!2d-3.1836613!3d51.4919725!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf9c395adcc743dce!2sHadyn%20Ellis%20Medical%20Research%20Facility!5e0!3m2!1sen!2suk!4v1568539146159!5m2!1sen!2suk"
   # Team section
   [params.team]
-    enable = false
+    enable = true
     # Possibility to center items
     #center = true
     title = "Team"
