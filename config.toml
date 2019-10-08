@@ -296,7 +296,9 @@ googleAnalytics = ""
       name = "Heather Turner"
       position = "Co-Organiser"
       scope = [
-        "Freelancer"
+        "Freelancer",
+        "[Forwards](https://forwards.github.io/) core team",
+        "[R-Ladies](https://twitter.com/rladiesremote?lang=en) Remote co-organizer"
       ]
       livesIn = "[Cardiff, UK](https://www.google.com/maps/place/Cardiff/data=!4m2!3m1!1s0x486e02d434ec53f5:0x143406db6586670e?sa=X&ved=2ahUKEwjcmcb7tojlAhUIEcAKHcSmBRYQ8gEwAHoECAoQAQ)"
       social = [
