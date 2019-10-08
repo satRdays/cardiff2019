@@ -316,7 +316,8 @@ googleAnalytics = ""
       social = [
         ["fa-twitter", "https://twitter.com/DaveParr"],
         ["fa-github", "https://github.com/DaveParr"],
-        ["fa-linkedin", "https://www.linkedin.com/in/davidrgparr/"]
+        ["fa-linkedin", "https://www.linkedin.com/in/davidrgparr/"],
+        ["fa-globe", "https://daveparr.info/"]
       ]
     
       [[params.team.members]]
