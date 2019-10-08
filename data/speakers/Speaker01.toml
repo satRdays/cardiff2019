@@ -1,6 +1,7 @@
 img = "minecr.jpg"
 name = "Dr. Mine Çetinkaya-Rundel"
-#organisation = "Company 1"
+organisation = "[University of Edinburgh](https://www.ed.ac.uk/) & [RStudio](www.rstudio.com)."
+
 role = " Principal Investigator, [University of Edinburgh](https://www.ed.ac.uk/) & Professional Educator and Data Scientist, [RStudio](www.rstudio.com)."
 social = [
         ["fa-twitter", "https://twitter.com/minebocek"],
