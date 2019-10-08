@@ -181,13 +181,14 @@ googleAnalytics = ""
 
   # Talk [Portfolio] section
   [params.portfolio]
-    enable = false
+    enable = true
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
-    # For more informtion take a look at the README.
+    # For more information take a look at the README.
     title = "Talks"
-    subtitle = "Who's saying what"
+    subtitle = "Our Keynotes"
+    img= "minecr.jpg"
     bg = true
 
     [params.portfolio.modal]
@@ -276,44 +277,64 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
+      img = "paul_brennan.jpg"
       name = "Paul Brennan"
       position = "Co-Organiser"
+      livesIn = "[Cardiff, UK](https://www.google.com/maps/place/Cardiff/data=!4m2!3m1!1s0x486e02d434ec53f5:0x143406db6586670e?sa=X&ved=2ahUKEwjcmcb7tojlAhUIEcAKHcSmBRYQ8gEwAHoECAoQAQ)"
+      scope = [
+        "Reader in the Division of [Cancer & Genetics](https://www.cardiff.ac.uk/medicine) at the School of Medicine"
+      ]
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/brennanpcardiff"],
+        ["fa-github", "https://github.com/brennanpincardiff"],
+        #["fa-linkedin", "#"],
+        ["fa-globe", "https://www.cardiff.ac.uk/people/view/122818-brennan-paul"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
+      img = "heather.jpg"
       name = "Heather Turner"
       position = "Co-Organiser"
+      scope = [
+        "Freelancer"
+      ]
+      livesIn = "[Cardiff, UK](https://www.google.com/maps/place/Cardiff/data=!4m2!3m1!1s0x486e02d434ec53f5:0x143406db6586670e?sa=X&ved=2ahUKEwjcmcb7tojlAhUIEcAKHcSmBRYQ8gEwAHoECAoQAQ)"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/HeathrTurnr"],
+        ["fa-github", "https://github.com/hturner"],
+        ["fa-linkedin", "https://www.linkedin.com/in/heathrturnr/"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
+      img = "dave_parr.jpg"
       name = "Dave Parr"
       position = "Co-Organiser"
+      livesIn = "[Cardiff, UK](https://www.google.com/maps/place/Cardiff/data=!4m2!3m1!1s0x486e02d434ec53f5:0x143406db6586670e?sa=X&ved=2ahUKEwjcmcb7tojlAhUIEcAKHcSmBRYQ8gEwAHoECAoQAQ)"
+      scope = [
+        "Head of Data Science at [Surple](https://surple.co.uk/)"
+      ]
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/DaveParr"],
+        ["fa-github", "https://github.com/DaveParr"],
+        ["fa-linkedin", "https://www.linkedin.com/in/davidrgparr/"]
       ]
     
       [[params.team.members]]
-      img = "faceholder.png"
-      name = "Dominik"
+      img = "dominik.jpg"
+      name = "Dominik Krzemiński"
       position = "Co-Organiser"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+      livesIn = "[Cardiff, UK](https://www.google.com/maps/place/Cardiff/data=!4m2!3m1!1s0x486e02d434ec53f5:0x143406db6586670e?sa=X&ved=2ahUKEwjcmcb7tojlAhUIEcAKHcSmBRYQ8gEwAHoECAoQAQ)"
+      scope = [
+        "PhD student at Cardiff University Brain Research Imaging Centre",
+        "Open Source Tech Lead at [Appsilon](https://appsilon.com/)"
       ]
+      social = [
+        ["fa-twitter", "https://twitter.com/dokatox"],
+        ["fa-github", "https://github.com/dokato"],
+        #["fa-linkedin", "#"]
+      ]
+
+
       [[params.team.members]]
       img = "faceholder.png"
       name = "Mark"
@@ -325,13 +346,19 @@ googleAnalytics = ""
       ]
 
       [[params.team.members]]
-      img = "faceholder.png"
+      img = "steph.jpg"
       name = "Steph Locke"
       position = "Co-Organiser"
+      livesIn = "[Cardiff, UK](https://www.google.com/maps/place/Cardiff/data=!4m2!3m1!1s0x486e02d434ec53f5:0x143406db6586670e?sa=X&ved=2ahUKEwjcmcb7tojlAhUIEcAKHcSmBRYQ8gEwAHoECAoQAQ)"
+      scope = [
+        "Founder of [Nightingale HQ](https://nightingalehq.ai/) & [Locke Data](https://itsalocke.com/)",
+        "Microsoft AI & Data Platform MVP",
+        "[satRdays](https://github.com/satRdays) global leader"
+      ]
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/TheStephLocke"],
+        ["fa-github", "https://github.com/stephlocke"],
+        ["fa-linkedin", "https://www.linkedin.com/in/stephanielocke/"]
       ]
 
 
