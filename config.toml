@@ -295,12 +295,13 @@ googleAnalytics = ""
       img = "heather.jpg"
       name = "Heather Turner"
       position = "Co-Organiser"
+
       scope = [
         "Freelancer",
         "[Forwards](https://forwards.github.io/) core team",
         "[R-Ladies](https://twitter.com/rladiesremote?lang=en) Remote co-organizer"
       ]
-      livesIn = "[Cardiff, UK](https://www.google.com/maps/place/Cardiff/data=!4m2!3m1!1s0x486e02d434ec53f5:0x143406db6586670e?sa=X&ved=2ahUKEwjcmcb7tojlAhUIEcAKHcSmBRYQ8gEwAHoECAoQAQ)"
+      livesIn = "[Newport, UK](https://www.google.co.uk/maps/place/Newport/@51.5742802,-3.0493215,12z/data=!3m1!4b1!4m5!3m4!1s0x486e1e131ca04b95:0x495c163a920de244!8m2!3d51.584151!4d-2.997664?hl=en&expflags=__data_rollout__Tactile.IsDogfoodRollout__launched__%3Afalse%2C__data_rollout__Tactile.IsFishfoodRollout__launched__%3Afalse)"
       social = [
         ["fa-twitter", "https://twitter.com/HeathrTurnr"],
         ["fa-github", "https://github.com/hturner"],
