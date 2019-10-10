@@ -339,15 +339,15 @@ googleAnalytics = ""
       ]
 
 
-      [[params.team.members]]
-      img = "faceholder.png"
-      name = "Mark"
-      position = "Co-Organiser"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
-      ]
+      # [[params.team.members]]
+      # img = "faceholder.png"
+      # name = "Mark"
+      # position = "Co-Organiser"
+      # social = [
+      #   ["fa-twitter", "#"],
+      #   ["fa-github", "#"],
+      #   ["fa-linkedin", "#"]
+      # ]
 
       [[params.team.members]]
       img = "steph.jpg"
