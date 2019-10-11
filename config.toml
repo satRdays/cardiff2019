@@ -134,10 +134,10 @@ googleAnalytics = ""
   # Register section
   # You only need ONE of these active
   [params.tito]
-    enable = true
+    enable = false
     title = "Register"
     bg = true
-    accountevent = "satrday-cardiff/satrday-cardiff-2019"
+    accountevent = "ultimateconf/2013"
       # Go to https://ti.to/ and find the account (under your user) and event pair string e.g. "cardiff-satrday/2018"
       # include botht the account and event in a string, seperated by /, with no spaces
 
@@ -163,21 +163,32 @@ googleAnalytics = ""
   # Call for papers section
   [params.callforpapers]
     enable = true
-    title = "Call For Speakers"
+    title = "Call For Papers"
     bg = false
     CfSpage = "/cardiff-satrday-2019"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
     dates = "1 October - 1 November"
 
+
+  # Hackathon section
+  [params.hackathon]
+    enable = true
+    title = "Hackathon"
+    location= """Cardiff University Main Building Council Chamber (Room 1.77, 1st floor, Main Building, Park Place, CF10 3AT)"""
+    bg = false
+    dates = "15 November 2019"
+    times= "13:00-17:30"  
+
   # Talk [Portfolio] section
   [params.portfolio]
-    enable = false
+    enable = true
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
-    # For more informtion take a look at the README.
+    # For more information take a look at the README.
     title = "Talks"
-    subtitle = "Who's saying what"
+    subtitle = "Our Keynotes"
+    img= "minecr.jpg"
     bg = true
 
     [params.portfolio.modal]
@@ -217,13 +228,13 @@ googleAnalytics = ""
     [[params.about.events]]
       img = "3.jpg"
       date = "Third Date"
-      title = "Call For Speakers"
+      title = "Call For Papers"
       description = "Submissions for speakers are now open!"
 
     [[params.about.events]]
       img = "4.jpg"
       date = "Fourth Date"
-      title = "Call For Speakers Ends"
+      title = "Call For Papers Ends"
       description = "Cut off date for speaker submissions"
   
   # Location section
@@ -234,11 +245,11 @@ googleAnalytics = ""
     iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9936.631018024384!2d-3.1836613!3d51.4919725!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf9c395adcc743dce!2sHadyn%20Ellis%20Medical%20Research%20Facility!5e0!3m2!1sen!2suk!4v1568539146159!5m2!1sen!2suk"
   # Team section
   [params.team]
-    enable = false
+    enable = true
     # Possibility to center items
     #center = true
     title = "Team"
-    subtitle = "The people putting it together"
+    subtitle = "The people putting Cardiff satRday together"
     bg = false
     description = ""
     speakers = "Speakers"
@@ -248,44 +259,113 @@ googleAnalytics = ""
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 1"
-      position = "Organiser Position 1"
+      img = "sefaozalp.jpg"
+      name = "Sefa Ozalp"
+      position = "Co-Organiser"
       reportsTo = ""
-      livesIn = "[Munich, Germany](#some-maps-url)"
+      livesIn = "[Cardiff, UK](https://www.google.com/maps/place/Cardiff/data=!4m2!3m1!1s0x486e02d434ec53f5:0x143406db6586670e?sa=X&ved=2ahUKEwjcmcb7tojlAhUIEcAKHcSmBRYQ8gEwAHoECAoQAQ)"
       scope = [
-        "Role 1 for [thing 1](#)",
-        "Role 2 for [thing 2](#)",
-        "Role 3 for [thing 3](#)"
+        "Lead Data Science Researcher at [HateLab](https://hatelab.net/people/)",
+        "Research Assistant at [Social Data Science Lab](http://socialdatalab.net/)"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """I do things,
-      and stuff"""
+      bio = """I use R to wrangle big social media data and monitor/analyse cyber-hate speech."""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/sefaozalp"],
+        ["fa-github", "https://github.com/sefabey"],
+        ["fa-linkedin", "https://www.linkedin.com/in/sefaozalp/"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 2"
-      position = "Organiser Position 2"
+      img = "paul_brennan.jpg"
+      name = "Paul Brennan"
+      position = "Co-Organiser"
+      livesIn = "[Cardiff, UK](https://www.google.com/maps/place/Cardiff/data=!4m2!3m1!1s0x486e02d434ec53f5:0x143406db6586670e?sa=X&ved=2ahUKEwjcmcb7tojlAhUIEcAKHcSmBRYQ8gEwAHoECAoQAQ)"
+      scope = [
+        "Reader in the Division of [Cancer & Genetics](https://www.cardiff.ac.uk/medicine) at the School of Medicine"
+      ]
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/brennanpcardiff"],
+        ["fa-github", "https://github.com/brennanpincardiff"],
+        #["fa-linkedin", "#"],
+        ["fa-globe", "https://www.cardiff.ac.uk/people/view/122818-brennan-paul"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 3"
-      position = "Organiser Position 3"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+      img = "heather.jpg"
+      name = "Heather Turner"
+      position = "Co-Organiser"
+
+      scope = [
+        "Freelancer",
+        "[Forwards](https://forwards.github.io/) core team",
+        "[R-Ladies](https://twitter.com/rladiesremote?lang=en) Remote co-organizer"
       ]
+      livesIn = "[Newport, UK](https://www.google.co.uk/maps/place/Newport/@51.5742802,-3.0493215,12z/data=!3m1!4b1!4m5!3m4!1s0x486e1e131ca04b95:0x495c163a920de244!8m2!3d51.584151!4d-2.997664?hl=en&expflags=__data_rollout__Tactile.IsDogfoodRollout__launched__%3Afalse%2C__data_rollout__Tactile.IsFishfoodRollout__launched__%3Afalse)"
+      social = [
+        ["fa-twitter", "https://twitter.com/HeathrTurnr"],
+        ["fa-github", "https://github.com/hturner"],
+        ["fa-linkedin", "https://www.linkedin.com/in/heathrturnr/"]
+      ]
+
+    [[params.team.members]]
+      img = "dave_parr.jpg"
+      name = "Dave Parr"
+      position = "Co-Organiser"
+      livesIn = "[Cardiff, UK](https://www.google.com/maps/place/Cardiff/data=!4m2!3m1!1s0x486e02d434ec53f5:0x143406db6586670e?sa=X&ved=2ahUKEwjcmcb7tojlAhUIEcAKHcSmBRYQ8gEwAHoECAoQAQ)"
+      scope = [
+        "Head of Data Science at [Surple](https://surple.co.uk/)"
+      ]
+      social = [
+        ["fa-twitter", "https://twitter.com/DaveParr"],
+        ["fa-github", "https://github.com/DaveParr"],
+        ["fa-linkedin", "https://www.linkedin.com/in/davidrgparr/"],
+        ["fa-globe", "https://daveparr.info/"]
+      ]
+    
+      [[params.team.members]]
+      img = "dominik.jpg"
+      name = "Dominik Krzemiński"
+      position = "Co-Organiser"
+      livesIn = "[Cardiff, UK](https://www.google.com/maps/place/Cardiff/data=!4m2!3m1!1s0x486e02d434ec53f5:0x143406db6586670e?sa=X&ved=2ahUKEwjcmcb7tojlAhUIEcAKHcSmBRYQ8gEwAHoECAoQAQ)"
+      scope = [
+        "PhD student at Cardiff University Brain Research Imaging Centre",
+        "Open Source Tech Lead at [Appsilon](https://appsilon.com/)"
+      ]
+      social = [
+        ["fa-twitter", "https://twitter.com/dokatox"],
+        ["fa-github", "https://github.com/dokato"],
+        #["fa-linkedin", "#"]
+      ]
+
+
+      # [[params.team.members]]
+      # img = "faceholder.png"
+      # name = "Mark"
+      # position = "Co-Organiser"
+      # social = [
+      #   ["fa-twitter", "#"],
+      #   ["fa-github", "#"],
+      #   ["fa-linkedin", "#"]
+      # ]
+
+      [[params.team.members]]
+      img = "steph.jpg"
+      name = "Steph Locke"
+      position = "Co-Organiser"
+      livesIn = "[Cardiff, UK](https://www.google.com/maps/place/Cardiff/data=!4m2!3m1!1s0x486e02d434ec53f5:0x143406db6586670e?sa=X&ved=2ahUKEwjcmcb7tojlAhUIEcAKHcSmBRYQ8gEwAHoECAoQAQ)"
+      scope = [
+        "Founder of [Nightingale HQ](https://nightingalehq.ai/) & [Locke Data](https://itsalocke.com/)",
+        "Microsoft AI & Data Platform MVP",
+        "[satRdays](https://github.com/satRdays) global leader"
+      ]
+      social = [
+        ["fa-twitter", "https://twitter.com/TheStephLocke"],
+        ["fa-github", "https://github.com/stephlocke"],
+        ["fa-linkedin", "https://www.linkedin.com/in/stephanielocke/"]
+      ]
+
+
 
   # Client section
   [params.clients_list]

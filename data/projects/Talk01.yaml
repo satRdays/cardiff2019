@@ -1,13 +1,13 @@
 modalID: 1
-title: "First Talk"
-subtitle: "First Subtitle"
-date: 1970-01-01
+title: "R 4 All - Welcoming and inclusive practices for teaching R"
+subtitle: ""
+date: 2019-11-16
 startsAt: 00:00
 endsAt: 00:01
-img: roundicons.png
-preview: faceholder.png
-client: Speaker One
+img: "minecr.jpg"
+preview: "minecr.jpg"
+client: Dr. Mine Çetinkaya-Rundel 
 clientLink: "#"
 category: Category 1
-description: "Describe 1"
+description: "With the rising interest in data science and programming, those of us teaching (with) R can now reach a larger audience than we ever thought possible. As educators, it is our responsibility to ensure that while we are building interesting and challenging curricula for these students, we also do it in a way that is attractive and engaging for a diverse audience, as well as supportive enough to minimize the number of students who fall through the cracks. Adopting welcoming and inclusive practices can enable these students, whatever their background and circumstances, to achieve their potential and to grow and engage with the larger R and data science community. In this talk, we highlight a collection of pedagogical considerations, tips, and tricks for designing a welcoming and inclusive curriculum for teaching (with) R. In addition, we demonstrate tooling and infrastructure solutions for making it as straightforward and painless as possible to put these approaches into practice in the classroom."
 talk: true
