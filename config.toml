@@ -307,9 +307,9 @@ googleAnalytics = ""
       logo = "appsilon.png"
       link = "https://appsilon.com/"
 
-    [[params.clients]]
-      logo = "whyr.jpg"
-      link = "http://whyr.pl/foundation/"
+    #[[params.clients]]
+    #  logo = "whyr.jpg"
+    #  link = "http://whyr.pl/foundation/"
 
     #[[params.clients]]
     #  logo = "creative-market.jpg"
