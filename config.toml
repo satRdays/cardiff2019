@@ -304,6 +304,10 @@ googleAnalytics = ""
       link = "https://www.jumpingrivers.com"
 
     [[params.clients]]
+      logo = "caruni.jpg"
+      link = "https://www.cardiff.ac.uk/"
+
+    [[params.clients]]
       logo = "appsilon.png"
       link = "https://appsilon.com/"
 
