@@ -303,13 +303,17 @@ googleAnalytics = ""
       logo = "jr_logo.png"
       link = "https://www.jumpingrivers.com"
 
-    #[[params.clients]]
-    #  logo = "designmodo.jpg"
-    #  link = "#"
+    [[params.clients]]
+      logo = "caruni.jpg"
+      link = "https://www.cardiff.ac.uk/"
+
+    [[params.clients]]
+      logo = "appsilon.png"
+      link = "https://appsilon.com/"
 
     #[[params.clients]]
-    #  logo = "themeforest.jpg"
-    #  link = "#"
+    #  logo = "whyr.jpg"
+    #  link = "http://whyr.pl/foundation/"
 
     #[[params.clients]]
     #  logo = "creative-market.jpg"
