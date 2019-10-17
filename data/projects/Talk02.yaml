@@ -10,4 +10,4 @@ client: Speaker Two
 clientLink: "#"
 category: Category 2
 description: "Describe 2"
-talk: true
+talk: false
