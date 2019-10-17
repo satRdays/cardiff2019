@@ -134,10 +134,10 @@ googleAnalytics = ""
   # Register section
   # You only need ONE of these active
   [params.tito]
-    enable = false
+    enable = true
     title = "Register"
     bg = true
-    accountevent = "ultimateconf/2013"
+    accountevent = "satrday-cardiff/satrday-cardiff-2019"
       # Go to https://ti.to/ and find the account (under your user) and event pair string e.g. "cardiff-satrday/2018"
       # include botht the account and event in a string, seperated by /, with no spaces
 
@@ -163,7 +163,7 @@ googleAnalytics = ""
   # Call for papers section
   [params.callforpapers]
     enable = true
-    title = "Call For Papers"
+    title = "Call For Speakers"
     bg = false
     CfSpage = "/cardiff-satrday-2019"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
@@ -228,13 +228,13 @@ googleAnalytics = ""
     [[params.about.events]]
       img = "3.jpg"
       date = "Third Date"
-      title = "Call For Papers"
+      title = "Call For Speakers"
       description = "Submissions for speakers are now open!"
 
     [[params.about.events]]
       img = "4.jpg"
       date = "Fourth Date"
-      title = "Call For Papers Ends"
+      title = "Call For Speakers Ends"
       description = "Cut off date for speaker submissions"
   
   # Location section
