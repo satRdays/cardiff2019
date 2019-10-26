@@ -177,7 +177,8 @@ googleAnalytics = ""
     location= """Cardiff University Main Building Council Chamber (Room 1.77, 1st floor, Main Building, Park Place, CF10 3AT)"""
     bg = false
     dates = "15 November 2019"
-    times= "13:00-17:30"  
+    times= "13:00-17:30"
+    brief1 = "We will explore a unique dataset collated by Anna-Jayne Metcalfe for the <a href= 'https://tdor.translivesmatter.info/' > TDOR  </a> website."
 
   # Talk [Portfolio] section
   [params.portfolio]
