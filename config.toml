@@ -189,7 +189,7 @@ googleAnalytics = ""
     # For more information take a look at the README.
     title = "Talks"
     subtitle = "(Times subject to change)"
-    bg = true
+    bg = false
 
     [params.portfolio.modal]
       client = "Client"
@@ -250,9 +250,9 @@ googleAnalytics = ""
     #center = true
     title = "Team"
     subtitle = "The people putting Cardiff satRday together"
-    bg = false
+    bg = true
     description = ""
-    speakers = "Speakers"
+    speakers = "Key Note Speakers"
     
 
     # All team member's pictures are stored under 'static/img/team'.
