@@ -188,8 +188,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more information take a look at the README.
     title = "Talks"
-    subtitle = "Our Keynotes"
-    img= "minecr.jpg"
+    subtitle = "(Times subject to change)"
     bg = true
 
     [params.portfolio.modal]
