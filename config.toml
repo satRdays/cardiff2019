@@ -365,6 +365,18 @@ googleAnalytics = ""
         ["fa-linkedin", "https://www.linkedin.com/in/stephanielocke/"]
       ]
 
+      [[params.team.members]]
+      img = "mark.jpeg"
+      name = "Mark James"
+      position = "Co-Organiser"
+      livesIn = "[Cardiff, UK](https://www.google.com/maps/place/Cardiff/data=!4m2!3m1!1s0x486e02d434ec53f5:0x143406db6586670e?sa=X&ved=2ahUKEwjcmcb7tojlAhUIEcAKHcSmBRYQ8gEwAHoECAoQAQ)"
+      scope = [
+        "Senior BI & Data Warehouse Dev at NHS"
+      ]
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/mrmrj/"]
+      ]
+
 
 
   # Client section
