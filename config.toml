@@ -179,7 +179,7 @@ googleAnalytics = ""
     dates = "15 November 2019"
     times= "13:00-17:30"
     brief1 = "We will explore a unique dataset collated by Anna-Jayne Metcalfe for the <a href= 'https://tdor.translivesmatter.info/' > TDOR  </a> website."
-    brief2 = "The event will involve activities suitable for all levels and backgrounds so feel free to come along. Click <a href= 'https://www.meetup.com/Cardiff-R-User-Group/events/256116362/' > here  </a> for further info."
+    brief2 = "The event will involve activities suitable for all levels and backgrounds so feel free to come along. Click <a href= 'https://www.meetup.com/Cardiff-R-User-Group/events/265292928/' > here  </a> for further info."
   # Talk [Portfolio] section
   [params.portfolio]
     enable = true
