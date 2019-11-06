@@ -162,7 +162,7 @@ googleAnalytics = ""
   
   # Call for papers section
   [params.callforpapers]
-    enable = true
+    enable = false
     title = "Call For Speakers"
     bg = false
     CfSpage = "/cardiff-satrday-2019"
@@ -179,7 +179,7 @@ googleAnalytics = ""
     dates = "15 November 2019"
     times= "13:00-17:30"
     brief1 = "We will explore a unique dataset collated by Anna-Jayne Metcalfe for the <a href= 'https://tdor.translivesmatter.info/' > TDOR  </a> website."
-    brief2 = "The event will involve activities suitable for all levels and backgrounds so feel free to come along. Click <a href= 'https://www.meetup.com/Cardiff-R-User-Group/events/256116362/' > here  </a> for further info."
+    brief2 = "The event will involve activities suitable for all levels and backgrounds so feel free to come along. Click <a href= 'https://www.meetup.com/Cardiff-R-User-Group/events/265292928/' > here  </a> for further info."
   # Talk [Portfolio] section
   [params.portfolio]
     enable = true
@@ -188,9 +188,8 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more information take a look at the README.
     title = "Talks"
-    subtitle = "Our Keynotes"
-    img= "minecr.jpg"
-    bg = true
+    subtitle = "(Times subject to change)"
+    bg = false
 
     [params.portfolio.modal]
       client = "Client"
@@ -251,9 +250,9 @@ googleAnalytics = ""
     #center = true
     title = "Team"
     subtitle = "The people putting Cardiff satRday together"
-    bg = false
+    bg = true
     description = ""
-    speakers = "Speakers"
+    speakers = "Key Note Speakers"
     
 
     # All team member's pictures are stored under 'static/img/team'.
