@@ -1,13 +1,17 @@
 modalID: 2
-title: "Second Talk"
-subtitle: "Second Subtitle"
-date: 1970-01-01
+title: "Data wrangling with #rdatatable package"
+subtitle: ""
+date: 2019-11-16
 startsAt: 00:01
 endsAt: 00:02
-img: roundicons.png
-preview: faceholder.png
-client: Speaker Two
+img: "arun.png"
+preview: "arun.png"
+client: Arun Srinivasan
 clientLink: "#"
 category: Category 2
-description: "Describe 2"
-talk: false
+description: "The #rdatatable package allows for fast and memory efficient data manipulation with a concise and flexible syntax. It has been around for over 12 years now, is frequently a featured package, one of the most downloaded packages (https://www.r-pkg.org) and has over 70 contributors (https://github.com/Rdatatable/data.table/graphs/contributors).
+
+Over the last couple of years, several new functionalities and improvements including parallelisation of several operations have been made. In this talk, I'd like to bring those new features to your attention.
+
+The syntax of #rdatatable is designed to make data analysis tasks as efficient as possible both in terms of run/compute time as well as time to write code. As a consequence, some powerful features of data.table might not be immediately obvious to some users. This talk will also attempt to focus one such unique data.table feature: joins as subsets."
+talk: true
