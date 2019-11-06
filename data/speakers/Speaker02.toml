@@ -1,0 +1,12 @@
+img = "arun.png"
+name = "Arun Srinivasan"
+
+role = "Co-developer, [rdatatable](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html) "
+social = [
+        ["fa-globe", "arunkumar.sriniv@gmail.com"],
+        #["fa-github", "aa"],
+        #["fa-linkedin", "aa"],
+        #["fa-globe", "aa"]
+      ]
+bio = """Arun Srinivasan is originally from Tamilnadu, India. He started contributing to the data.table project in late 2013 and has been a part of the project since then. He enjoys implementing algorithms that facilitates speedy analysis of large data. He currently works as an analyst in Finance in London, United Kingdom."""
+      
