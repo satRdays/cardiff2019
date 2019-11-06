@@ -3,7 +3,7 @@ name = "Arun Srinivasan"
 
 role = "Co-developer, [rdatatable](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html) "
 social = [
-        ["fa-email", "arunkumar.sriniv@gmail.com"],
+        ["fa-globe", "arunkumar.sriniv@gmail.com"],
         #["fa-github", "aa"],
         #["fa-linkedin", "aa"],
         #["fa-globe", "aa"]
