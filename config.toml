@@ -407,9 +407,9 @@ googleAnalytics = ""
       logo = "whyr.jpg"
       link = "http://whyr.pl/foundation/"
 
-    #[[params.clients]]
-    #  logo = "creative-market.jpg"
-    #  link = "#"
+    [[params.clients]]
+      logo = "alac.png"
+      link = "https://www.alacrityfoundation.co.uk/"
   
   [params.diversity]
     enable = true
